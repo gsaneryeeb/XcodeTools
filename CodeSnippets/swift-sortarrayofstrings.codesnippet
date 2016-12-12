@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-closureoptionaltypealias</string>
+	<string>swift-sortarrayofstrings</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias &lt;#ClosureName#&gt; = ((_ &lt;#arguments#&gt;) -&gt; &lt;#return value#&gt;)?</string>
+	<string>&lt;#arrayOfStrings#&gt;.sorted { (a, b) -&gt; Bool in
+            let comparisonResult = a.compare(b, options: [], range: a.range(of: a), locale: Locale.current)
+            return comparisonResult == .orderedSame
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1528A53D-69CA-4A12-908A-1F85A47A8644</string>
+	<string>B005E7A7-789D-43C2-873A-0DD8040EE2B8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Optional closure typealiast with arguments and return value snippet for Swift</string>
+	<string>Swift String Array locale-aware sorting</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift optional closure typealias</string>
+	<string>Swift String Array locale-aware sorting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
