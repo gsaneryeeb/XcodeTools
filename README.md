@@ -4,6 +4,9 @@ List:
 
 ###1. Code snippets
 
+##Language: Swift 3
+
+##Xcode Version: 8.1 
 
 The default snippets are stored in the ~/Library/Developer/Xcode/UserData/CodeSnippets/
 
