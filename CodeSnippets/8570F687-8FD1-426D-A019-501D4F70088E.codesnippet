@@ -2,22 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-mark-2</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#Section#&gt;</string>
+	<string>// MARK: - &lt;#Object Entity#&gt;
+
+struct &lt;#name#&gt;{
+    
+    // MARK: Properties
+    
+    
+    // MARK: Initializers
+    
+    
+    // construct a &lt;#object#&gt; from a dictionary
+    init(dictionary: [String:AnyObject]) {
+        &lt;#code#&gt;
+        
+    }
+
+    // MARK: Equtable
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4E224C42-F3C3-4B61-81B7-BC5CF579E762</string>
+	<string>8570F687-8FD1-426D-A019-501D4F70088E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Divider label for separating code into sections</string>
+	<string>a template of define object</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Mark:</string>
+	<string>Template-DefineStructObject</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-mark-2</string>
+	<string>swift - func-closure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#Section#&gt;</string>
+	<string>// MARK: &lt;#name#&gt;
+
+func &lt;#name#&gt;(&lt;#parameter#&gt; : &lt;#type#&gt;, completionHandlerFor&lt;#name#&gt;: @escaping (&lt;#_ success: Bool#&gt;,&lt;#_ result: AnyObject?#&gt;, _ error: &lt;#type#&gt;?) -&gt; Void){
+        
+        &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4E224C42-F3C3-4B61-81B7-BC5CF579E762</string>
+	<string>65724D4B-C351-4D0F-96F5-E786E6706121</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Divider label for separating code into sections</string>
+	<string>Function with CompletionHandeler Closure</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Mark:</string>
+	<string>Function with CompletionHandeler</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
